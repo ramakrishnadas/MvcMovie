@@ -51,6 +51,30 @@ public static class SeedData
                     Genre = "Western",
                     Price = 3.99M,
                     Rating = "PG"
+                },
+                new Movie
+                {
+                    Title = "Harry Potter and the Sorcerer's Stone",
+                    ReleaseDate = DateTime.Parse("2001-11-23"),
+                    Genre = "Fantasy",
+                    Price = 2.99M,
+                    Rating = "PG"
+                },
+                new Movie
+                {
+                    Title = "The Lord of the Rings: The Fellowship of the Ring",
+                    ReleaseDate = DateTime.Parse("2001-12-19"),
+                    Genre = "Adventure",
+                    Price = 1.50M,
+                    Rating = "PG-13"
+                },
+                new Movie
+                {
+                    Title = "Fight Club",
+                    ReleaseDate = DateTime.Parse("1999-10-15"),
+                    Genre = "Drama",
+                    Price = 2.00M,
+                    Rating = "R"
                 }
             );
             context.SaveChanges();
